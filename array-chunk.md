@@ -70,7 +70,7 @@ function chunk(array, size) {
 ## Method 3
 // ===== ARRAY.PROTOTYPE.SPLICE =====
 
-- WARNING: This method does not retain the original array length
+- WARNING: This method does not retain the original array length.
 ```
 function chunk(array, size) {
   const chunkedArray = [];

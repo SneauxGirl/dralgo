@@ -30,7 +30,7 @@ Write a function that reverses an integer.
 
 // ===== Notes =====
 
-- 32b signed integers range: -2,147,483,648 to 2,147,483,647
+- 32-bit signed integers range: -2,147,483,648 to 2,147,483,647
 - 0x7FFFFFFF (seven 'f's)
 
 // ===== TestCase =====
@@ -54,7 +54,7 @@ function reverseInteger(number) {
 ```
 ------------------------------------------------------
 ## Method 2
-// ===== STRING MANIPULATION =====
+// ===== ACCOUNTING FOR 32-BIT SIGNED =====
 ```
 function reverseInteger(number) {
   let reversed = 0;

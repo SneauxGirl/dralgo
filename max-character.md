@@ -58,7 +58,7 @@ function maxCharacter(string) {
 ## Method 2
 // ===== COMBINED FOR LOOPS =====
 
-- More efficient
+- More efficient.
 ```
 function maxCharacter(string) {
   const charMap = {};

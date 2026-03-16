@@ -24,7 +24,7 @@ You are given a positive integer 'n', representing the number of levels in the p
 Each level should have '#' symbols, with the number of '#' increasing as you go down the levels.
 The symbols are centered with spaces on BOTH sides.
 
-Parameters: positive integers, centered # with spaces on each side
+Parameters: positive integers, centered # with spaces on each side.
 ```
 // ===== Clarifying Questions =====
 

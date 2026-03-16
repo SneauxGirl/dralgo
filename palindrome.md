@@ -19,7 +19,7 @@ A palindrome is a word, phrase or sequence that reads the same backward as forwa
 
 // ===== Example Problem =====
 ```
-Write a function that checks if a string is a a palindrome.
+Write a function that checks if a string is a palindrome.
 ```
 // ===== Clarifying Questions =====
 

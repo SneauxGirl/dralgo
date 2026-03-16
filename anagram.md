@@ -33,7 +33,7 @@ console.log(isAnagram('silent', 'listen'))
 ## Method 1
 // ===== FREQUENCY COUNTER =====
 
-- Fastest at scale
+- Fastest at scale.
 
 ```
 function isAnagram(string1, string2) {
@@ -56,7 +56,7 @@ function isAnagram(string1, string2) {
 ## Method 2
 // ===== SORTING =====
 
-- Normalize will sort and count all characters (inc digits and spaces), convert to lowercase, and compare
+- Normalize will sort and count all characters (inc digits and spaces), convert to lowercase, and compare.
 ```
 function isAnagram(string1, string2) {
   const normalize = string => string.toLowerCase().split('').sort().join('');
@@ -67,7 +67,7 @@ function isAnagram(string1, string2) {
 ## Method 3
 // ===== CLEAN AND SORT =====
 
-- Strips out anything that is not a letter (upper/lower), converts to lower case, and compares
+- Strips out anything that is not a letter (upper/lower), converts to lower case, and compares.
 ```
 function isAnagram(string1, string2) {
   const cleanString = string => string.replace(/[^\w]/g, '').toLowerCase();
