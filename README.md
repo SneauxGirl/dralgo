@@ -10,6 +10,8 @@ ASCII ART to reinforce concepts and make it easier to identify pages at a glance
 - 2. Review methods for most appropriate to current task
 - 3. Copy and paste code and/or test case to project then edit as needed
 
+! [Algorithm MD Screenshot](dralgo.png)
+
 ## License
 
 Standard MIT license for Open Source
